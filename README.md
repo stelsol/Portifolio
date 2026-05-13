@@ -17,9 +17,3 @@ Construir interfaces modernas, responsivas e criativas enquanto evoluo na área 
 
 Sites muito usados para criar badges:
 
-## Tecnologias
-- HTML5
-- CSS3
-- JavaScript
-- React
-- Git e GitHub
