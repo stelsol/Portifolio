@@ -4,16 +4,29 @@
   margin: 0;
 } 
 */
+@import "tailwindcss";
+
+@theme {
+  --color-estrelas: #cd9d1e;
+  --color-universo: #202940;
+  --color-universot: #2029408b;
+}
+
 body {
   width: 100%;
 }
 body {
   background-image: url("../imagens/fundo-p.png");
   background-size: cover;
-  background-position: center;
+  background-position: end;
 }
 .menu {
-  box-shadow: 0 4px 80px #202940;
+  box-shadow: 0 4px 80px #131b2da7;
+}
+header {
+  background-image: url("../imagens/fundo-p.png");
+  background-size: cover;
+  background-position: end;
 }
 
 /* .menu{

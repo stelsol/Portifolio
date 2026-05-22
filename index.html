@@ -6,31 +6,81 @@
     <title>Portifólio</title>
     <link rel="stylesheet" href="css/output.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Exo+2:wght@400;500&family=Space+Grotesk:wght@400;500&family=Rajdhani:wght@400;500&family=Syne:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <!-- <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>  não precisa pois já adicionamos via terminal-->
   </head>
   <body>
-    <header
-      class="menu bg-white flex justify-around items-center h-20 bg-[url(/imagens/fundo-p.png)] bg-cover bg-center"
-    >
-      <div class="logo-menu">
-        <img src="#" alt="logo" />
+    <header class="menu bg-white flex justify-evenly items-center h-25">
+      <div class="logo-menu flex items-center">
+        <img src="imagens/logo.svg" alt="logo" class="w-full h-80" />
       </div>
       <div class="nav">
-        <ul class="lista-nav flex gap-20">
-          <li class="itens">itens</li>
-          <li class="itens">itens</li>
-          <li class="itens">itens</li>
-          <li class="itens">itens</li>
-          <li class="itens">itens</li>
+        <ul
+          class="lista-nav flex items-center gap-13 text-gray-50 uppercase font-semibold"
+        >
+          <li
+            class="itens border-b-2 border-transparent hover:border-estrelas px-5 py-9"
+          >
+            Home
+          </li>
+          <li
+            class="itens itens border-b-2 border-transparent hover:border-estrelas px-5 py-9"
+          >
+            Perfil
+          </li>
+          <li
+            class="itens itens border-b-2 border-transparent hover:border-estrelas px-5 py-9"
+          >
+            Projetos
+          </li>
+          <li
+            class="itens itens border-b-2 border-transparent hover:border-estrelas px-5 py-9"
+          >
+            Técnologias
+          </li>
+          <li
+            class="itens itens border-b-2 border-transparent hover:border-estrelas px-5 py-9"
+          >
+            Contato
+          </li>
         </ul>
       </div>
-      <div class="tema-portiflio">
-        <p>claro e escuro</p>
+      <div
+        class="tema-portiflio p-1 inset-shadow-sm inset-shadow-gray-50/50 rounded-3xl w-30 h-10 flex items-center bg-universot px-3"
+      >
+        <div
+          class="circulo w-6 h-6 bg-gray-50/50 rounded-4xl size-18 bg-radial-[at_25%_25%] from-white to-zinc-900 to-75%"
+        ></div>
       </div>
     </header>
 
-    <main class="flex justify-center mt-14">
-      <div class="sol w-96 h-96 bg-white mt-14 rounded-full"></div>
+    <main class="flex justify-center items-center mt-12">
+      <!-- <div class="sol w-96 h-96 bg-white mt-14 rounded-full"></div> -->
+      <section class="flex flex-col items-center gap-9">
+        <img
+          src="imagens/sol.svg"
+          alt="sol class"
+          class="w-120 h-120 animate-[spin_50s_linear_infinite]"
+        />
+        <section class="texto flex flex-col items-center gap-3">
+          <h1 class="text-5xl font-['Playfair Display'] font-bold text-gray-50">
+            Hello Word!! I'm Stella
+          </h1>
+          <p class="text-4xl font-['DM Sans'] font-semibold text-gray-50">
+            A developer who loves bringing ideas to life
+          </p>
+        </section>
+        <button>
+          <img
+            src="imagens/puxe.svg"
+            alt="puxar"
+            class="h-20 w-20 animate-[bounce_2s_ease-in-out_infinite] mt-5"
+          />
+        </button>
+      </section>
     </main>
   </body>
 </html>
