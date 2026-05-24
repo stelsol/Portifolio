@@ -1,9 +1,3 @@
-/*  {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-} 
-*/
 @import "tailwindcss";
 
 @theme {
@@ -13,18 +7,26 @@
 }
 
 body {
-  width: 100%;
+  width: auto;
 }
-body {
+#home {
+  width: 100%;
   background-image: url("../imagens/fundo-p.png");
   background-size: cover;
-  background-position: end;
+  background-position: start;
+  box-sizing: border-box;
 }
 .menu {
   box-shadow: 0 4px 80px #131b2da7;
 }
 header {
   background-image: url("../imagens/fundo-p.png");
+  background-size: cover;
+  background-position: end;
+}
+
+#perfil {
+  background-image: url("../imagens/fundo-p2.png");
   background-size: cover;
   background-position: end;
 }
