@@ -31,6 +31,12 @@ header {
   background-position: end;
 }
 
+#Projetos {
+  background-image: url("../imagens/fundo-p2.png");
+  background-size: cover;
+  background-position: center;
+}
+
 /* .menu{
     width: 100%;
     height: 90px;position: fixed;

@@ -15,47 +15,49 @@
   <body>
     <!-- Adiconar ids a cada tag para o uso do js depois -->
 
-    <header class="menu bg-white flex justify-evenly items-center h-25">
-      <div class="logo-menu flex items-center justify-center">
-        <img src="imagens/logo.svg.svg" alt="logo" class="w-auto h-60" />
-      </div>
-      <div class="nav">
-        <ul
-          class="lista-nav flex items-center gap-13 text-gray-50 uppercase font-semibold"
-        >
-          <li
-            class="itens border-b-2 border-transparent hover:border-estrelas px-5 py-9"
+    <header class="menu bg-white">
+      <div class="w-7xl mx-auto flex justify-between items-center h-25">
+        <div class="logo-menu flex items-center justify-center">
+          <img src="imagens/logo.svg.svg" alt="logo" class="w-auto h-60" />
+        </div>
+        <div class="nav">
+          <ul
+            class="lista-nav flex items-center gap-13 text-gray-50 uppercase font-semibold"
           >
-            Home
-          </li>
-          <li
-            class="itens border-b-2 border-transparent hover:border-estrelas px-5 py-9"
-          >
-            Perfil
-          </li>
-          <li
-            class="itens border-b-2 border-transparent hover:border-estrelas px-5 py-9"
-          >
-            Projetos
-          </li>
-          <li
-            class="itens border-b-2 border-transparent hover:border-estrelas px-5 py-9"
-          >
-            Técnologias
-          </li>
-          <li
-            class="itens border-b-2 border-transparent hover:border-estrelas px-5 py-9"
-          >
-            Contato
-          </li>
-        </ul>
-      </div>
-      <div
-        class="tema-portiflio p-1 inset-shadow-sm inset-shadow-gray-50/50 rounded-3xl w-30 h-10 flex items-center bg-universot px-3"
-      >
+            <li
+              class="itens border-b-2 border-transparent hover:border-estrelas px-5 py-9"
+            >
+              Home
+            </li>
+            <li
+              class="itens border-b-2 border-transparent hover:border-estrelas px-5 py-9"
+            >
+              Perfil
+            </li>
+            <li
+              class="itens border-b-2 border-transparent hover:border-estrelas px-5 py-9"
+            >
+              Projetos
+            </li>
+            <li
+              class="itens border-b-2 border-transparent hover:border-estrelas px-5 py-9"
+            >
+              Técnologias
+            </li>
+            <li
+              class="itens border-b-2 border-transparent hover:border-estrelas px-5 py-9"
+            >
+              Contato
+            </li>
+          </ul>
+        </div>
         <div
-          class="circulo w-6 h-6 bg-gray-50/50 rounded-4xl size-18 bg-radial-[at_25%_25%] from-white to-zinc-900 to-75%"
-        ></div>
+          class="tema-portiflio p-1 inset-shadow-sm inset-shadow-gray-50/50 rounded-3xl w-30 h-10 flex items-center bg-universot px-3"
+        >
+          <div
+            class="circulo w-6 h-6 bg-gray-50/50 rounded-4xl size-18 bg-radial-[at_25%_25%] from-white to-zinc-900 to-75%"
+          ></div>
+        </div>
       </div>
     </header>
     <!-- Contendo  a estrutura das paginas -->
@@ -63,65 +65,89 @@
       <!-- <div class="sol w-96 h-96 bg-white mt-14 rounded-full"></div> -->
 
       <!-- Inicio - Home / Landing page -->
-      <section
-        id="home"
-        class="flex flex-col items-center gap-9 min-h-screen w-full"
-      >
-        <img
-          src="imagens/sol.svg"
-          alt="sol class"
-          class="w-120 h-120 animate-[spin_50s_linear_infinite]"
-        />
-        <div class="texto flex flex-col items-center gap-3">
-          <h1 class="text-5xl font-['Playfair Display'] font-bold text-gray-50">
-            Hello Word!! I'm Stella
-          </h1>
-          <p class="text-4xl font-['DM Sans'] font-semibold text-gray-50">
-            A developer who loves bringing ideas to life
-          </p>
-        </div>
-        <button>
+      <section id="home" class="w-full min-h-screen text-gray-300">
+        <div
+          class="w-7xl mx-auto flex flex-col justify-center items-center min-h-screen"
+        >
           <img
-            src="imagens/puxe.svg"
-            alt="puxar"
-            class="h-20 w-20 animate-[bounce_2s_ease-in-out_infinite] mt-5"
+            src="imagens/sol.svg"
+            alt="sol class"
+            class="w-120 h-120 animate-[spin_50s_linear_infinite]"
           />
-        </button>
+          <div class="texto flex flex-col items-center gap-3">
+            <h1
+              class="text-5xl font-['Playfair Display'] font-bold text-gray-50"
+            >
+              Hello Word!! I'm Stella
+            </h1>
+            <p class="text-4xl font-['DM Sans'] font-semibold text-gray-50">
+              A developer who loves bringing ideas to life
+            </p>
+          </div>
+          <button>
+            <img
+              src="imagens/puxe.svg"
+              alt="puxar"
+              class="h-20 w-20 animate-[bounce_2s_ease-in-out_infinite] mt-6"
+            />
+          </button>
+        </div>
       </section>
 
       <!-- Fim da home  -->
 
       <!-- Section perfil -->
-      <section id="perfil" class="w-full min-h-screen">
-        <div class="flex p-5 justify-center items-center">
-          <div class="w-1/2 flex justify-center">
-            <img src="imagens/saturno.svg" alt="saturno" class="w-150 h-150" />
+      <section id="perfil" class="w-full min-h-screen text-gray-300">
+        <div class="w-7xl mx-auto flex flex-col items-center gap-3">
+          <div class="flex justify-center items-center">
+            <div class="w-1/2 flex justify-center">
+              <img
+                src="imagens/saturno.svg"
+                alt="saturno"
+                class="w-150 h-150"
+              />
+            </div>
+            <div class="texto w-1/2 flex justify-center p-10">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Cupiditate dignissimos reprehenderit eum illo veritatis
+              praesentium officiis excepturi ullam natus! Impedit, praesentium
+              itaque. Consequatur quae, alias perspiciatis sit blanditiis eius
+              vero? Autem quo, impedit quisquam reprehenderit nam voluptas quae
+              commodi, voluptatibus, corrupti sit rerum earum tenetur. Optio
+              quaerat inventore veritatis eveniet placeat, fugiat a dicta
+              itaque. Commodi culpa optio nobis rem. Voluptas, ab error incidunt
+              veniam rem distinctio? Ex laboriosam sed expedita ullam tenetur
+              quas labore corporis voluptate sit accusamus animi nulla facere,
+              modi quis quasi commodi minima! Veniam, mollitia sint! Tenetur quo
+              iste optio, deserunt fugiat officia fuga ratione eaque molestias
+              quidem hic harum voluptatibus, et voluptates vel doloribus amet?
+              Cumque praesentium veritatis temporibus quibusdam dicta quas
+              quidem doloribus dolor. Sint ea debitis unde totam rerum quis
+              ratione, itaque eveniet nisi, placeat et cumque asperiores magnam.
+              Iure possimus dolorum, facere distinctio aspernatur iste et
+              voluptatum deserunt velit quaerat ea necessitatibus? Ullam
+              excepturi tempore atque a suscipit, libero, quis quibusdam soluta
+              corrupti aliquid ea adipisci odit nulla officia, nobis impedit
+              dolorum obcaecati. Culpa, cum facilis sit minima voluptas
+              explicabo ipsa ratione?
+            </div>
           </div>
-          <div class="texto w-1/2 flex justify-center">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate
-            dignissimos reprehenderit eum illo veritatis praesentium officiis
-            excepturi ullam natus! Impedit, praesentium itaque. Consequatur
-            quae, alias perspiciatis sit blanditiis eius vero? Autem quo,
-            impedit quisquam reprehenderit nam voluptas quae commodi,
-            voluptatibus, corrupti sit rerum earum tenetur. Optio quaerat
-            inventore veritatis eveniet placeat, fugiat a dicta itaque. Commodi
-            culpa optio nobis rem. Voluptas, ab error incidunt veniam rem
-            distinctio? Ex laboriosam sed expedita ullam tenetur quas labore
-            corporis voluptate sit accusamus animi nulla facere, modi quis quasi
-            commodi minima! Veniam, mollitia sint! Tenetur quo iste optio,
-            deserunt fugiat officia fuga ratione eaque molestias quidem hic
-            harum voluptatibus, et voluptates vel doloribus amet? Cumque
-            praesentium veritatis temporibus quibusdam dicta quas quidem
-            doloribus dolor. Sint ea debitis unde totam rerum quis ratione,
-            itaque eveniet nisi, placeat et cumque asperiores magnam. Iure
-            possimus dolorum, facere distinctio aspernatur iste et voluptatum
-            deserunt velit quaerat ea necessitatibus? Ullam excepturi tempore
-            atque a suscipit, libero, quis quibusdam soluta corrupti aliquid ea
-            adipisci odit nulla officia, nobis impedit dolorum obcaecati. Culpa,
-            cum facilis sit minima voluptas explicabo ipsa ratione?
+          <!-- Grade de formações -->
+          <div class="formacoes flex flex-col w-full px-5">
+            <div>
+              <h3>Formações</h3>
+            </div>
+            <div>
+              <ul>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+              </ul>
+            </div>
           </div>
         </div>
-        <div class="formacoes h-20 bg-amber-400"></div>
       </section>
 
       <section id="Projetos" class="w-full min-h-screen"></section>
