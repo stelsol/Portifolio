@@ -1,11 +1,5 @@
 @import "tailwindcss";
 
-@theme {
-  --color-estrelas: #cd9d1e;
-  --color-universo: #202940;
-  --color-universot: #2029408b;
-}
-
 body {
   width: auto;
 }
