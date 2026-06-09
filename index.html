@@ -16,7 +16,7 @@
     />
     <!-- <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>  não precisa pois já adicionamos via terminal-->
   </head>
-  <body>
+  <body class="bg-[url('../imagens/fundo-p.png')] bg-cover bg-fixed bg-center">
     <!-- Adiconar ids a cada tag para o uso do js depois -->
 
     <header class="menu bg-white">
@@ -103,6 +103,12 @@
       <!-- Section perfil -->
       <section id="perfil" class="w-full min-h-screen">
         <div class="w-7xl mx-auto flex flex-col items-center gap-3">
+          <div class="w-full font-semibold text-gray-300 text-start">
+            <h2 class="border-b-2 text-5xl pb-1 border-[#cd9d1e] w-40">
+              About Me
+            </h2>
+          </div>
+
           <div class="flex justify-center items-center">
             <div class="w-1/2 flex justify-center">
               <img
@@ -138,8 +144,10 @@
           </div>
           <!-- Grade de formações -->
           <div class="formacoes flex flex-col items-start w-full px-2 gap-2">
-            <div class="text-[#cd9d1e]">
-              <h3 class="text-9xl">Formações</h3>
+            <div class="w-full font-semibold text-gray-300 text-start">
+              <h2 class="border-b-2 text-5xl pb-1 border-[#cd9d1e] w-40">
+                Formações
+              </h2>
             </div>
             <div class="flex justify-start">
               <ul class="flex flex-col items-start gap-3">

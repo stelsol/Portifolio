@@ -3,13 +3,14 @@
 body {
   width: auto;
 }
-#home {
+
+/* #home {
   width: 100%;
   background-image: url("../imagens/fundo-p.png");
   background-size: cover;
   background-position: start;
   box-sizing: border-box;
-}
+} */
 .menu {
   box-shadow: 0 4px 80px #131b2da7;
 }
@@ -18,7 +19,7 @@ header {
   background-size: cover;
   background-position: end;
 }
-
+/* 
 #perfil {
   background-image: url("../imagens/fundo-p2.png");
   background-size: cover;
@@ -29,7 +30,7 @@ header {
   background-image: url("../imagens/fundo-p2.png");
   background-size: cover;
   background-position: center;
-}
+} */
 
 /* .menu{
     width: 100%;
